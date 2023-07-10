@@ -24,7 +24,7 @@ export default function Home() {
       </div>
 
       <div className={styles.center}>
-        <a 
+        <Link
         href="https://manado-translate.vercel.app/translate"
         className={styles.card}
         target="_blank"
@@ -32,7 +32,7 @@ export default function Home() {
         >
 
         <h1 className="text-3xl font-bold underline">Manado to Indonesia</h1>
-        </a>
+        </Link>
 
       </div>
 
