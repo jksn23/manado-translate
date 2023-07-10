@@ -25,7 +25,10 @@ export default function Home() {
 
       <div className={styles.center}>
         <a 
-        href="https://manado-translate.vercel.app/translate">
+        href="https://manado-translate.vercel.app/translate"
+        className={styles.card}
+        target="_blank"
+        >
 
         <h1 className={inter.className}>Manado to Indonesia</h1>
         </a>
