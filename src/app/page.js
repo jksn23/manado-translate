@@ -9,8 +9,8 @@ export default function Home() {
     <main className={styles.main}>
       <div className={styles.description}>
         <p>
-          Get started by editing&nbsp;
-          <code className={styles.code}>src/app/page.js</code>
+          Get started translate&nbsp;
+          <code className={styles.code}>So makang ?</code>
         </p>
         <div>
           <a
@@ -18,31 +18,18 @@ export default function Home() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            By{' '}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className={styles.vercelLogo}
-              width={100}
-              height={24}
-              priority
-            />
+            By <a href="https://instagram.com/mc.l_j/">Mc.Crazy</a>
           </a>
         </div>
       </div>
 
       <div className={styles.center}>
-        <Image
-          className={styles.logo}
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
-        <div className={styles.thirteen}>
-          <Image src="/thirteen.svg" alt="13" width={40} height={31} priority />
-        </div>
+        <a 
+        href="https://manado-translate.vercel.app/translate">
+
+        <H1>Manado to Indonesia</H1>
+        </a>
+
       </div>
 
       <div className={styles.grid}>
