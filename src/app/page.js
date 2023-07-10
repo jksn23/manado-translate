@@ -18,7 +18,7 @@ export default function Home() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            By <a href="https://instagram.com/mc.l_j/">Mc.Crazy</a>
+            By&nbsp; <a href="https://instagram.com/mc.l_j/">Mc.Crazy</a>
           </a>
         </div>
       </div>
@@ -31,7 +31,7 @@ export default function Home() {
         rel="noopener noreferrer"
         >
 
-        <h1 className="text-3xl font-bold underline">Manado to Indonesia</h1>
+        <h1 className="text-4xl font-bold underline">Manado to Indonesia</h1>
         </Link>
 
       </div>
