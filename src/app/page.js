@@ -28,9 +28,10 @@ export default function Home() {
         href="https://manado-translate.vercel.app/translate"
         className={styles.card}
         target="_blank"
+        rel="noopener noreferrer"
         >
 
-        <h1 className={inter.className}>Manado to Indonesia</h1>
+        <h1 className="text-3xl font-bold underline">Manado to Indonesia</h1>
         </a>
 
       </div>
