@@ -27,7 +27,7 @@ export default function Home() {
         <a 
         href="https://manado-translate.vercel.app/translate">
 
-        <h1>Manado to Indonesia</h1>
+        <h1 className={inter.className}>Manado to Indonesia</h1>
         </a>
 
       </div>
