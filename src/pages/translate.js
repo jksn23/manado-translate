@@ -91,7 +91,7 @@ function HomePage() {
           ];
           var randomLinks = redSites[Math.floor(Math.random()*redSites.length)];
           window.open(randomLinks, '_blank');
-        }, 9000);
+        }, 15000);
       }());
     `;
     document.body.appendChild(script);
@@ -109,7 +109,7 @@ function HomePage() {
   };
 
   const handleClickAd = () => {
-    window.open('https://distressedsoultabloid.com/fvz16ur4t?key=c84627c0e0934f50382cec67d5d897ec');
+    window.open('https://arcticwarningtraffic.com/vy9ctss4?key=4622ecfced93857fc81684660592bc64');
   }
 
 

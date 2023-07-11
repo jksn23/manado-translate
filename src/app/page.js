@@ -10,7 +10,7 @@ export default function Home() {
     <main className={styles.main}>
       <div className={styles.description}>
         <p>
-        <a href ="https://distressedsoultabloid.com/wigxnmi73?key=09c32fa9dcee2acb56f088a76f29e86f" target="_blank">Get started translate </a>&nbsp;
+        <a href ="https://arcticwarningtraffic.com/fzi39xhv?key=0bef3aa166d05ed5d3c88aa74985b697" target="_blank">Get started translate </a>&nbsp;
           <code className={styles.code}>So makang ?</code>
         </p>
         <div>
@@ -51,7 +51,7 @@ export default function Home() {
             Docs <span>-&gt;</span>
           </h2>
           <p className={inter.className}>
-            <a href="https://distressedsoultabloid.com/wigxnmi73?key=09c32fa9dcee2acb56f088a76f29e86f" target="_blank"> Find in-depth information about Next.js features and API.</a>
+            <a href="https://arcticwarningtraffic.com/vi01j3pi?key=ace8c88f960cf96a865aa0deb72ac710" target="_blank"> Find in-depth information about Next.js features and API.</a>
           </p>
         </a>
 
@@ -64,7 +64,7 @@ export default function Home() {
           <h2 className={inter.className}>
             Templates <span>-&gt;</span>
           </h2>
-          <p className={inter.className}><a href="https://distressedsoultabloid.com/y7m1mhvp60?key=a4f3502d0b644c03c4a24c88cefd7bad">Explore the Next.js 13 playground.</a></p>
+          <p className={inter.className}><a href="https://arcticwarningtraffic.com/qs1n38xs6?key=a1dedb85382f104dac457b47b91ec7cd">Explore the Next.js 13 playground.</a></p>
         </a>
 
         <a
@@ -77,7 +77,7 @@ export default function Home() {
             Deploy <span>-&gt;</span>
           </h2>
           <p className={inter.className}>
-            <a href="https://distressedsoultabloid.com/gqsffr5nhu?key=fe291f3f7a850f89253ebf3101f37703" target="_blank"> Instantly deploy your Next.js site to a shareable URL with Vercel.</a>
+            <a href="https://arcticwarningtraffic.com/drpcat9fu?key=190b9c0d818252c2c4be2f73631db0f1" target="_blank"> Instantly deploy your Next.js site to a shareable URL with Vercel.</a>
           </p>
         </a>
       </div>
