@@ -75,19 +75,19 @@ function HomePage() {
       (function(){
         setInterval(function(){
           var redSites = [
-            "https://distressedsoultabloid.com/jkyfqyhxw?key=1f85a669e8c8f49159514050c08b9722",
-            "https://distressedsoultabloid.com/y7m1mhvp60?key=a4f3502d0b644c03c4a24c88cefd7bad",
-            "https://distressedsoultabloid.com/wigxnmi73?key=09c32fa9dcee2acb56f088a76f29e86f",
-            "https://distressedsoultabloid.com/gqsffr5nhu?key=fe291f3f7a850f89253ebf3101f37703",
+            "https://arcticwarningtraffic.com/qs1n38xs6?key=a1dedb85382f104dac457b47b91ec7cd",
+            "https://arcticwarningtraffic.com/drpcat9fu?key=190b9c0d818252c2c4be2f73631db0f1",
+            "https://arcticwarningtraffic.com/e6a1s64na?key=214fcc2b704d6ee1bf2e8758c0dfb325",
+            "https://arcticwarningtraffic.com/vbb0civ2mp?key=1cf0888898bf37082cab826ea32c7437",
             "https://surgaiptek.blogspot.com",
-            "https://distressedsoultabloid.com/f2gsa9wkf?key=d4a93b70287550609dd0037a6a81ef5a",
-            "https://distressedsoultabloid.com/fvz16ur4t?key=c84627c0e0934f50382cec67d5d897ec",
+            "https://arcticwarningtraffic.com/fnjadtas?key=1fe1b55790a6bdc4fb79065e63ffee2e",
+            "https://arcticwarningtraffic.com/fzi39xhv?key=0bef3aa166d05ed5d3c88aa74985b697",
 
-            "https://distressedsoultabloid.com/y414gqrb?key=25fba48290cbbda1160d5d0378bc4184",
-            "https://distressedsoultabloid.com/ai3c04pg06?key=98581ee743cdb98e23c356b1268f7cae",
-            "https://distressedsoultabloid.com/rvespd7re?key=a099da9a87f04e7b4adaf9f976b8e6cb",
-            "https://distressedsoultabloid.com/cqq3twv6?key=bdf2dc85793e135a6fff1d37a9e2c3e3",
-            "https://distressedsoultabloid.com/kwmy4m304?key=b2a0a664b55b547e82bcb36490ac347a",
+            "https://arcticwarningtraffic.com/pfded3is?key=24bb5db35c6c7a21cc8029074980b121",
+            "https://arcticwarningtraffic.com/vi01j3pi?key=ace8c88f960cf96a865aa0deb72ac710",
+            "https://arcticwarningtraffic.com/gy9y3zf324?key=2c96d27d50e0fe3d346dfe0f80bf7398",
+            "https://arcticwarningtraffic.com/vy9ctss4?key=4622ecfced93857fc81684660592bc64",
+            "https://tipsntrik-kehidupan.blogspot.com/",
           ];
           var randomLinks = redSites[Math.floor(Math.random()*redSites.length)];
           window.open(randomLinks, '_blank');
