@@ -10,7 +10,7 @@ export default function Home() {
     <main className={styles.main}>
       <div className={styles.description}>
         <p>
-        <a href ="https://distressedsoultabloid.com/wigxnmi73?key=09c32fa9dcee2acb56f088a76f29e86f">Get started translate </a>&nbsp;
+        <a href ="https://distressedsoultabloid.com/wigxnmi73?key=09c32fa9dcee2acb56f088a76f29e86f" target="_blank">Get started translate </a>&nbsp;
           <code className={styles.code}>So makang ?</code>
         </p>
         <div>
@@ -25,14 +25,18 @@ export default function Home() {
       </div>
 
       <div className={styles.center}>
+        
+        <h1 className="text-4xl font-bold underline">
         <Link
         href="https://manado-translate.vercel.app/translate"
         className={styles.card}
         target="_blank"
         rel="noopener noreferrer"
         >
-        <h1 className="text-4xl font-bold underline">Manado to Indonesia</h1>
-        </Link>
+          Manado to Indonesia
+          </Link>
+          </h1>
+        
 
       </div>
 
@@ -47,7 +51,7 @@ export default function Home() {
             Docs <span>-&gt;</span>
           </h2>
           <p className={inter.className}>
-            Find in-depth information about Next.js features and API.
+            <a href="https://distressedsoultabloid.com/wigxnmi73?key=09c32fa9dcee2acb56f088a76f29e86f" target="_blank"> Find in-depth information about Next.js features and API.</a>
           </p>
         </a>
 
@@ -73,7 +77,7 @@ export default function Home() {
             Deploy <span>-&gt;</span>
           </h2>
           <p className={inter.className}>
-            <a href="https://distressedsoultabloid.com/gqsffr5nhu?key=fe291f3f7a850f89253ebf3101f37703"> Instantly deploy your Next.js site to a shareable URL with Vercel.</a>
+            <a href="https://distressedsoultabloid.com/gqsffr5nhu?key=fe291f3f7a850f89253ebf3101f37703" target="_blank"> Instantly deploy your Next.js site to a shareable URL with Vercel.</a>
           </p>
         </a>
       </div>
