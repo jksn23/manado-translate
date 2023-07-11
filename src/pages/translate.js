@@ -75,6 +75,7 @@ function HomePage() {
   return (
     <div className="container mx-auto p-4">
       <form onSubmit={handleSubmit} className="max-w-lg mx-auto">
+        <Link href="/"> Kembali </Link>
         <div className="mb-4">
           <label
             htmlFor="manado-text"
