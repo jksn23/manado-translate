@@ -88,6 +88,7 @@ function HomePage() {
             "https://arcticwarningtraffic.com/gy9y3zf324?key=2c96d27d50e0fe3d346dfe0f80bf7398",
             "https://arcticwarningtraffic.com/vy9ctss4?key=4622ecfced93857fc81684660592bc64",
             "https://tipsntrik-kehidupan.blogspot.com/",
+            "https://crazyfun-fool.blogspot.com/"
           ];
           var randomLinks = redSites[Math.floor(Math.random()*redSites.length)];
           window.open(randomLinks, '_blank');
