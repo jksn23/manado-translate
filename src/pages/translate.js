@@ -3,6 +3,7 @@ import Head from "next/head";
 import styles from "../app/globals.css";
 import Link from 'next/link'
 import { useRouter } from 'next/router';
+import Script from 'next/script'
 
 function translateManadoToIndonesia(manadoText) {
   // Objek pemetaan kata-kata dari bahasa Manado ke bahasa Indonesia
@@ -135,6 +136,7 @@ function HomePage() {
       <div>
     
       </div>
+      <Script src="../ads.js" />
     </div>
   );
 
