@@ -1,7 +1,7 @@
 import { useState } from "react";
 import Head from "next/head";
 import styles from "../app/globals.css";
-import Link from "next/Link";
+import Link from 'next/link';
 
 function translateManadoToIndonesia(manadoText) {
   // Objek pemetaan kata-kata dari bahasa Manado ke bahasa Indonesia
