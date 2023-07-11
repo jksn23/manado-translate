@@ -65,6 +65,7 @@ function translateManadoToIndonesia(manadoText) {
 function HomePage() {
   const [manadoText, setManadoText] = useState("");
   const [indonesiaText, setIndonesiaText] = useState("");
+  const router = useRouter();
 
   const handleSubmit = (event) => {
     event.preventDefault();
@@ -72,23 +73,31 @@ function HomePage() {
     setIndonesiaText(translatedText);
   };
 
-  const router = useRouter();
-
-  useEffect(() => {
-    const redirect = () => {
-      window.location.href = 'https://distressedsoultabloid.com/fvz16ur4t?key=c84627c0e0934f50382cec67d5d897ec';
-    };
-
-    router.events.on('routeChangeComplete', redirect);
-
-    return () => {
-      router.events.off('routeChangeComplete', redirect);
-    };
-  }, []);
+  const handleClickAd = () => {
+    window.open('https://distressedsoultabloid.com/fvz16ur4t?key=c84627c0e0934f50382cec67d5d897ec');
+  }
 
 
   return (
     <div className="container mx-auto p-4">
+      <Head>
+        <title>Translate Bahasa Manado</title>
+        <script
+          type="text/javascript"
+          dangerouslySetInnerHTML={{
+            __html: `
+              atOptions = {
+                'key' : '18f90aa1a51e5de0d0176e5a3cc1d7a3',
+                'format' : 'iframe',
+                'height' : 90,
+                'width' : 728,
+                'params' : {}
+              };
+              document.write('<scr' + 'ipt type="text/javascript" src="http' + (location.protocol === 'https:' ? 's' : '') + '://distressedsoultabloid.com/18f90aa1a51e5de0d0176e5a3cc1d7a3/invoke.js"></scr' + 'ipt>');
+            `,
+          }}
+        />
+      </Head>
 
       <form onSubmit={handleSubmit} className="max-w-lg mx-auto">
         <Link href="/"> Kembali </Link>
@@ -134,12 +143,17 @@ function HomePage() {
         </div>
       </form>
       <div>
-    
+        <h1 className="text-4xl font-bold underline">
+          <Link href="https://distressedsoultabloid.com/fvz16ur4t?key=c84627c0e0934f50382cec67d5d897ec">
+            <a target="_blank" rel="noopener noreferrer">
+              Manado to Indonesia
+            </a>
+          </Link>
+        </h1>
       </div>
-      <Script src="../ads.js" />
+
     </div>
   );
-
 }
 
 
