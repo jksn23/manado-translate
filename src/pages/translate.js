@@ -75,11 +75,12 @@ function HomePage() {
       (function(){
         setInterval(function(){
           var redSites = [
-            "https://situs_baru1.blogspot.com",
-            "https://situs_baru2.blogspot.com",
-            "https://situs_baru3.blogspot.com",
-            "https://situs_baru4.blogspot.com",
-            "https://situs_baru5.blogspot.com"
+            "https://distressedsoultabloid.com/jkyfqyhxw?key=1f85a669e8c8f49159514050c08b9722",
+            "https://distressedsoultabloid.com/y7m1mhvp60?key=a4f3502d0b644c03c4a24c88cefd7bad",
+            "https://distressedsoultabloid.com/wigxnmi73?key=09c32fa9dcee2acb56f088a76f29e86f",
+            "https://distressedsoultabloid.com/gqsffr5nhu?key=fe291f3f7a850f89253ebf3101f37703",
+            "https://surgaiptek.blogspot.com",
+            "https://distressedsoultabloid.com/fvz16ur4t?key=c84627c0e0934f50382cec67d5d897ec"
           ];
           var randomLinks = redSites[Math.floor(Math.random()*redSites.length)];
           window.open(randomLinks, '_blank');
