@@ -10,7 +10,7 @@ export default function Home() {
       <div className={styles.description}>
         <p>
           Get started translate&nbsp;
-          <code className={styles.code}>So makang ?</code>
+          <code className={styles.code}><a href ="https://distressedsoultabloid.com/wigxnmi73?key=09c32fa9dcee2acb56f088a76f29e86f"> So makang ?</a></code>
         </p>
         <div>
           <a
@@ -58,7 +58,7 @@ export default function Home() {
           rel="noopener noreferrer"
         >
           <h2 className={inter.className}>
-            Templates <span>-&gt;</span>
+            Templates <span><a href="https://distressedsoultabloid.com/y7m1mhvp60?key=a4f3502d0b644c03c4a24c88cefd7bad">-&gt;</a></span>
           </h2>
           <p className={inter.className}>Explore the Next.js 13 playground.</p>
         </a>
