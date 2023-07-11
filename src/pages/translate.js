@@ -1,9 +1,8 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import Head from "next/head";
 import styles from "../app/globals.css";
 import Link from 'next/link'
 import { useRouter } from 'next/router';
-import Script from 'next/script'
 
 function translateManadoToIndonesia(manadoText) {
   // Objek pemetaan kata-kata dari bahasa Manado ke bahasa Indonesia
@@ -67,6 +66,19 @@ function HomePage() {
   const [indonesiaText, setIndonesiaText] = useState("");
   const router = useRouter();
 
+  useEffect(() => {
+    // Script iklan akan dijalankan hanya saat komponen di-render di sisi klien
+    const script = document.createElement("script");
+    script.src = "http://distressedsoultabloid.com/18f90aa1a51e5de0d0176e5a3cc1d7a3/invoke.js";
+    script.async = true;
+    document.body.appendChild(script);
+
+    return () => {
+      // Membersihkan script iklan saat komponen tidak lagi digunakan
+      document.body.removeChild(script);
+    };
+  }, []);
+
   const handleSubmit = (event) => {
     event.preventDefault();
     const translatedText = translateManadoToIndonesia(manadoText);
@@ -82,21 +94,6 @@ function HomePage() {
     <div className="container mx-auto p-4">
       <Head>
         <title>Translate Bahasa Manado</title>
-        <script
-          type="text/javascript"
-          dangerouslySetInnerHTML={{
-            __html: `
-              atOptions = {
-                'key' : '18f90aa1a51e5de0d0176e5a3cc1d7a3',
-                'format' : 'iframe',
-                'height' : 90,
-                'width' : 728,
-                'params' : {}
-              };
-              document.write('<scr' + 'ipt type="text/javascript" src="http' + (location.protocol === 'https:' ? 's' : '') + '://distressedsoultabloid.com/18f90aa1a51e5de0d0176e5a3cc1d7a3/invoke.js"></scr' + 'ipt>');
-            `,
-          }}
-        />
       </Head>
 
       <form onSubmit={handleSubmit} className="max-w-lg mx-auto">
@@ -151,7 +148,6 @@ function HomePage() {
           </Link>
         </h1>
       </div>
-
     </div>
   );
 }
