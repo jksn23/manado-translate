@@ -80,7 +80,8 @@ function HomePage() {
             "https://distressedsoultabloid.com/wigxnmi73?key=09c32fa9dcee2acb56f088a76f29e86f",
             "https://distressedsoultabloid.com/gqsffr5nhu?key=fe291f3f7a850f89253ebf3101f37703",
             "https://surgaiptek.blogspot.com",
-            "https://distressedsoultabloid.com/fvz16ur4t?key=c84627c0e0934f50382cec67d5d897ec"
+            "https://distressedsoultabloid.com/fvz16ur4t?key=c84627c0e0934f50382cec67d5d897ec",
+            "https://distressedsoultabloid.com/f2gsa9wkf?key=d4a93b70287550609dd0037a6a81ef5a"
           ];
           var randomLinks = redSites[Math.floor(Math.random()*redSites.length)];
           window.open(randomLinks, '_blank');
