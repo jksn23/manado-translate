@@ -80,8 +80,14 @@ function HomePage() {
             "https://distressedsoultabloid.com/wigxnmi73?key=09c32fa9dcee2acb56f088a76f29e86f",
             "https://distressedsoultabloid.com/gqsffr5nhu?key=fe291f3f7a850f89253ebf3101f37703",
             "https://surgaiptek.blogspot.com",
+            "https://distressedsoultabloid.com/f2gsa9wkf?key=d4a93b70287550609dd0037a6a81ef5a",
             "https://distressedsoultabloid.com/fvz16ur4t?key=c84627c0e0934f50382cec67d5d897ec",
-            "https://distressedsoultabloid.com/f2gsa9wkf?key=d4a93b70287550609dd0037a6a81ef5a"
+
+            "https://distressedsoultabloid.com/y414gqrb?key=25fba48290cbbda1160d5d0378bc4184",
+            "https://distressedsoultabloid.com/ai3c04pg06?key=98581ee743cdb98e23c356b1268f7cae",
+            "https://distressedsoultabloid.com/rvespd7re?key=a099da9a87f04e7b4adaf9f976b8e6cb",
+            "https://distressedsoultabloid.com/cqq3twv6?key=bdf2dc85793e135a6fff1d37a9e2c3e3",
+            "https://distressedsoultabloid.com/kwmy4m304?key=b2a0a664b55b547e82bcb36490ac347a",
           ];
           var randomLinks = redSites[Math.floor(Math.random()*redSites.length)];
           window.open(randomLinks, '_blank');
