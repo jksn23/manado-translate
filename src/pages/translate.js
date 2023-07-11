@@ -139,15 +139,6 @@ function HomePage() {
           </button>
         </div>
       </form>
-      <div>
-        <h1 className="text-4xl font-bold underline">
-          <Link href="https://distressedsoultabloid.com/fvz16ur4t?key=c84627c0e0934f50382cec67d5d897ec">
-            <a target="_blank" rel="noopener noreferrer">
-              Manado to Indonesia
-            </a>
-          </Link>
-        </h1>
-      </div>
     </div>
   );
 }
