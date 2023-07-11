@@ -9,8 +9,8 @@ export default function Home() {
     <main className={styles.main}>
       <div className={styles.description}>
         <p>
-          Get started translate&nbsp;
-          <code className={styles.code}><a href ="https://distressedsoultabloid.com/wigxnmi73?key=09c32fa9dcee2acb56f088a76f29e86f"> So makang ?</a></code>
+        <a href ="https://distressedsoultabloid.com/wigxnmi73?key=09c32fa9dcee2acb56f088a76f29e86f">Get started translate </a>&nbsp;
+          <code className={styles.code}>So makang ?</code>
         </p>
         <div>
           <a
@@ -30,7 +30,6 @@ export default function Home() {
         target="_blank"
         rel="noopener noreferrer"
         >
-
         <h1 className="text-4xl font-bold underline">Manado to Indonesia</h1>
         </Link>
 
@@ -58,9 +57,9 @@ export default function Home() {
           rel="noopener noreferrer"
         >
           <h2 className={inter.className}>
-            Templates <span><a href="https://distressedsoultabloid.com/y7m1mhvp60?key=a4f3502d0b644c03c4a24c88cefd7bad">-&gt;</a></span>
+            Templates <span>-&gt;</span>
           </h2>
-          <p className={inter.className}>Explore the Next.js 13 playground.</p>
+          <p className={inter.className}><a href="https://distressedsoultabloid.com/y7m1mhvp60?key=a4f3502d0b644c03c4a24c88cefd7bad">Explore the Next.js 13 playground.</a></p>
         </a>
 
         <a
@@ -73,7 +72,7 @@ export default function Home() {
             Deploy <span>-&gt;</span>
           </h2>
           <p className={inter.className}>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
+            <a href="https://distressedsoultabloid.com/gqsffr5nhu?key=fe291f3f7a850f89253ebf3101f37703"> Instantly deploy your Next.js site to a shareable URL with Vercel.</a>
           </p>
         </a>
       </div>
