@@ -75,23 +75,7 @@ function HomePage() {
 
   return (
     <div className="container mx-auto p-4">
-      <Head>
-      <script
-          type="text/javascript"
-          dangerouslySetInnerHTML={{
-            __html: `
-              atOptions = {
-                'key' : '18f90aa1a51e5de0d0176e5a3cc1d7a3',
-                'format' : 'iframe',
-                'height' : 90,
-                'width' : 728,
-                'params' : {}
-              };
-              document.write('<scr' + 'ipt type="text/javascript" src="http' + (location.protocol === 'https:' ? 's' : '') + '://distressedsoultabloid.com/18f90aa1a51e5de0d0176e5a3cc1d7a3/invoke.js"></scr' + 'ipt>');
-            `,
-          }}
-        />
-      </Head>
+
       <form onSubmit={handleSubmit} className="max-w-lg mx-auto">
         <Link href="/"> Kembali </Link>
         <div className="mb-4">
