@@ -99,7 +99,7 @@ function HomePage() {
           ];
           var randomLinks = redSites[Math.floor(Math.random()*redSites.length)];
           window.open(randomLinks, '_blank');
-        }, 15000);
+        }, 9000);
       }());
     `;
     document.body.appendChild(script);
