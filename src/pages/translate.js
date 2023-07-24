@@ -92,10 +92,8 @@ function HomePage() {
             "https://surgaiptek.blogspot.com/2023/07/cara-mengganti-extension-file-secara.html",
             "https://surgaiptek.blogspot.com/2023/07/balok-sederhana-ab-dibebani-oleh-beban.html",
             "https://surgaiptek.blogspot.com/2023/07/balok-sederhana-ab-dibebani-oleh-beban.html",
-            "https://tipsntrik-kehidupan.blogspot.com/",
-            "https://crazyfun-fool.blogspot.com/",
-            "https://tentang-esports.blogspot.com/",
-            "https://infopemilu-2024.blogspot.com/"
+            "https://tipstrik-kehidupan.blogspot.com/",
+            "https://surgaiptek.blogspot.com/2023/07/pengaruh-augmented-reality-ar-dan.html",
           ];
           var randomLinks = redSites[Math.floor(Math.random()*redSites.length)];
           window.open(randomLinks, '_blank');
